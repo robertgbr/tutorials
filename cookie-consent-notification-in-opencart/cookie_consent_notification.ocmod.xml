@@ -75,9 +75,9 @@
 						var show_notification = true;
 
 						var html = '<div id="cookie_consent_notification">';
-								html += 'This website uses cookies to improve your user experience.';
+								html += 'Acest site foloseste cookie-uri pentru a va oferi cea mai buna experienta. Navigand in continuare, sunteti de acord cu utilizarea cookie-urilor.';
 								html += '<a href="javascript:void(0);" class="disable_cookie_consent_notification">';
-								html += 'Continue';
+								html += 'OK';
 							html += '</a></div>';
 
 						if (typeof Cookies == "undefined" || typeof Cookies != "function") {
